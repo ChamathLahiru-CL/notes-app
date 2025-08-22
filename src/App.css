@@ -172,6 +172,26 @@ header h1 {
   border-radius: 12px;
 }
 
+.error-message {
+  background: #ff6b6b;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.loading {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  padding: 40px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 12px;
+}
+
 @media (max-width: 768px) {
   .app {
     padding: 15px;
